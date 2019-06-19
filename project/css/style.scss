@@ -17,6 +17,11 @@ $gray-900: #212529 !default;
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+//html
+html {
+    scroll-behavior: smooth;
+}
+
 //body
 
 body {
@@ -138,6 +143,30 @@ footer.footer {
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
+
+/* Back to top button */
+
+.back-to-top {
+    position: fixed;
+    color: #fff;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 50%;
+    right: 15px;
+    bottom: 15px;
+    z-index: 11;
+
+}
+
+.back-to-top i {
+    padding-top: 12px;
+    color: #fff;
+}
+
+
 
 @media (min-width: 768px) {
     header.masthead {
